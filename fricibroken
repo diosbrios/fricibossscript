@@ -412,10 +412,11 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "____/BOSS\\___"
+TitleBarLabel.RichText = true
+TitleBarLabel.Text = "____/FRICIBOSS\\___ <i>laza az agy</i>"
 TitleBarLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
 TitleBarLabel.TextScaled = true
-TitleBarLabel.TextSize = 14.000
+TitleBarLabel.TextSize = 14
 TitleBarLabel.TextWrapped = true
 TitleBarLabel.TextXAlignment = Enum.TextXAlignment.Left
 
