@@ -1,9 +1,6 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Frici Broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Frici Broken",Text = "Mar be van toltve a gui, lepj ujra az executehoz",Duration = 5;})
 	return
 end
 local version = 2
@@ -253,7 +250,7 @@ local function SendNotify(title, message, duration)
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = title,Text = message,Duration = duration;})
 end
 
---LOAD GUI
+
 task.wait(0.1)
 local SysBroker = Instance.new("ScreenGui")
 local Background = Instance.new("ImageLabel")
@@ -3578,6 +3575,4 @@ task.spawn(function()
 	end
 end)
 
-SendNotify("Frici Broken","Gui developed by MalwareHub - Discord in your clipboard",10)
--- setclipboard("https://discord.gg/RkhpySwNR9")
---loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium
+SendNotify("Frici Broken","Gui developed by Friciboss, Proli - Laza az agy",10)
